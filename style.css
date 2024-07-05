@@ -1,0 +1,49 @@
+ *{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box; 
+ }
+ 
+ body{
+    height: 100vh;
+ }
+ .h1{
+    width: auto;
+    height: 10%;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+ } 
+
+ .button_box{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .zip-1{
+    font-size: 20px;
+    line-height: 17px;
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: 1s;
+    color: black;
+    background: transparent;
+    border: 10px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 50px;
+}
+.zip-1:hover{
+    background-color: black;
+    color: brown;
+    transition: 1s;
+
+}
+
+
+
